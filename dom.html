@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>dom</title>
+    <meta charset="uft-8" />
+    <style>
+        #say_hello {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div ID=say_hello>
+       Say Hello
+    </div>
+
+    <script>
+        document.getElementById('say_hello').addEventListener('click',function(){
+            document.getElementById('say_hello').style.backgroundColor = 'green'
+            alert('hello')
+            });
+        //alert('Hello');
+    </script>
+</body>
+</html>
